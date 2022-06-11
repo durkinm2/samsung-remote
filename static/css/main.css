@@ -1,0 +1,75 @@
+body {
+    padding: 25px;
+    text-align: center;
+    background: #25282d;
+    color: #676e79;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+a, a:hover {
+    color: #676e79;
+    font-weight: 700;
+}
+
+.btn-group.special {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.special .btn {
+    flex: 1
+}
+
+.btn {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.togglemain
+{
+  background: #343a40;
+  color: white;
+}
+@media (hover: hover) {
+  .togglemain:hover
+  {
+      background-color: #4fc3f7;
+  }
+}
+
+.togglemain.active
+{
+    background: #039be5;
+}
+.dial-container {
+}
+.row {
+  margin: 0 auto;
+  width: 280px;
+  clear: both;
+  text-align: center;
+  font-family: 'Exo';
+}
+
+.digit,
+.dig {
+  padding: 10px 30px;
+  width: 30px;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+/*
+  border:1px solid white;
+  height:100px;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  width:100px; */
+}
+
+
+.footer {
+    margin: 25px;
+    opacity: .5;
+    font-size: .75em;
+}
